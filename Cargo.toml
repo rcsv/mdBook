@@ -1,0 +1,7 @@
+[package]
+name = "mdBook"
+version = "0.1.0"
+authors = ["Rcsvpg <rcsvpg@gmail.com>"]
+
+[dependencies]
+
