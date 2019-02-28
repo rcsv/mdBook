@@ -1,0 +1,25 @@
+language: rust
+
+rust:
+  - stable
+
+os:
+  - linux
+  - osx
+
+cache:
+  timeout: 360
+  cargo: true
+
+script:
+  - cargo test --all
+  - cargo test --all --no-default-features
+
+branches:
+  only:
+    - master
+
+
+notifications:
+  email:
+    on_success: never
