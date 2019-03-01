@@ -1,3 +1,13 @@
+extern crate chrono;
+
 fn main(){
-    println!("Hello,world")
+    init_logger() ;
+
+    // Create a list of valid arguments and sub-commands
+    println!(" This is test! " ) ;
 }
+
+fn init_logger() {
+}
+
+
